@@ -15,7 +15,6 @@ import ShoppingCart from "Pages/ShoppingCart";
 import Login from "Pages/Login";
 import Spa from "Pages/Spa";
 import StoreInfo from "Pages/StoreInfo";
-import KakaoTalk from "Components/KakaoTalk";
 import Header from "Components/Header";
 import Footer from "Components/Footer";
 import Goods from "Components/Goods";
@@ -36,12 +35,11 @@ class Routes extends React.Component {
           {/* <Route exact path="/product" component={Product} /> */}
           <Route exact path="/shoppingcart" component={ShoppingCart} />
           <Route exact path="/spa" component={Spa} />
-          <Route exact path="/KaKaoTalk" componenet={KakaoTalk} />
 
           <Route exact path="/storeinfo" component={StoreInfo} />
           <Route exact path="/Goods" component={Goods} />
           <Route exact path="/Detail" component={Detail} />
-          <Redirect from="*" to="/" />
+          {/* <Redirect from="*" to="/" /> */}
         </Switch>
         <Footer />
       </Router>

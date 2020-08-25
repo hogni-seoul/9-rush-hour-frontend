@@ -1,0 +1,150 @@
+{
+  "product_list": [
+    {
+      "category_name": "베스트",
+      "category_path": "",
+      "sub_categories": [
+        "주간 베스트",
+        "별 다섯개 후기",
+        "온라인 전용",
+        "국내제조",
+        "네이키드",
+        "뜨거운 태양도 이겨낼 쿨링템",
+        "우리의 장미가 특별한 이유"
+      ]
+    },
+    {
+      "category_name": "신제품",
+      "category_path": "",
+      "sub_categories": [
+        "보디 스프레이",
+        "버블 바 큐레이션",
+        "스프링 컬렉션",
+        "마더스 & 파더스"
+      ]
+    },
+    {
+      "category_name": "배쓰",
+      "category_path": "",
+      "sub_categories": ["배쓰 밤", "버블 바", "배쓰 오일", "펀", "젤리 밤"]
+    },
+    {
+      "category_name": "샤워",
+      "category_path": "",
+      "sub_categories": [
+        "솝",
+        "샤워 젤 & 젤리",
+        "보디 컨디셔너",
+        "샤워 오일",
+        "샤워 밤",
+        "스크럽 & 버터",
+        "펀"
+      ]
+    },
+    {
+      "category_name": "보디",
+      "category_path": "",
+      "sub_categories": [
+        "클렌저",
+        "페이스 마스크",
+        "토너",
+        "모이스춰라이저",
+        "프라이머",
+        "립",
+        "쉐이빙 크림"
+      ]
+    },
+    {
+      "category_name": "페이스",
+      "category_path": "",
+      "sub_categories": [
+        "클렌저",
+        "페이스 마스크",
+        "토너",
+        "모이스춰라이저",
+        "프라이머",
+        "립",
+        "쉐이빙 크림"
+      ]
+    },
+    {
+      "category_name": "헤어",
+      "category_path": "",
+      "sub_categories": [
+        "샴푸 바",
+        "드라이 샴푸",
+        "컨디셔너",
+        "트리트먼트",
+        "스타일링"
+      ]
+    },
+    {
+      "category_name": "메이크업",
+      "category_path": "",
+      "sub_categories": [
+        "페이스 파우더",
+        "아이 메이크업",
+        "파운데이션",
+        "스킨 틴트",
+        "비건 브러쉬"
+      ]
+    },
+    {
+      "category_name": "퍼퓸",
+      "category_path": "",
+      "sub_categories": [
+        "보디 스프레이",
+        "퍼퓸 라이브러리",
+        "코어 레인지",
+        "솔리드 퍼퓸",
+        "워시 카드",
+        "퍼퓸 낫랩"
+      ]
+    },
+    {
+      "category_name": "기프트",
+      "category_path": "",
+      "sub_categories": [
+        "기프트 베스트",
+        "1~3만원대",
+        "4~6만원대",
+        "7만원 이상",
+        "낫랩",
+        "스웨그",
+        "악세서리"
+      ]
+    }
+  ],
+  "brand_list": [
+    {
+      "category_name": "러쉬",
+      "category_path": "",
+      "sub_categories": ["ABOUT LUSH"]
+    },
+    {
+      "category_name": "체러티 팟",
+      "category_path": "",
+      "sub_categories": []
+    },
+    {
+      "category_name": "켐페인",
+      "category_path": "",
+      "sub_categories": []
+    },
+    {
+      "category_name": "원재료",
+      "category_path": "",
+      "sub_categories": []
+    },
+    {
+      "category_name": "아티클",
+      "category_path": "",
+      "sub_categories": []
+    },
+    {
+      "category_name": "젤러쉬",
+      "category_path": "",
+      "sub_categories": ["젤러쉬 후기", "젤러쉬 활동"]
+    }
+  ]
+}
