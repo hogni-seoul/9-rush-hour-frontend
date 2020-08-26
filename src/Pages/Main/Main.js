@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import Slider from "react-slick";
 import Aside from "Components/Aside";
-import TopSlider from "Components/TopSlider";
+import Carousel from "Components/Carousel";
 import MainUnderContents from "Components/MainUnderContents";
 import MiddleSlide from "Components/MiddleSlide";
 import overImage from "./Images/media_form_img.gif";
@@ -9,12 +9,13 @@ import underImageleft from "./Images/media_form_img2.jpg";
 import underImageRight from "./Images/media_form_img3.jpg";
 import slideImage from "./Images/slide_image.jpg";
 import spaImage from "./Images/spa.gif";
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
 import "./Main.scss";
 import "../../Styles/reset.scss";
 import { DATA_PATH } from "config";
 import Header from "Components/Header";
+
+// Styles
+import styled from "styled-components";
 
 class Main extends Component {
   state = {
@@ -72,9 +73,9 @@ class Main extends Component {
     const { slideData } = this.state;
 
     return (
-      <div className="Main">
-        <TopSlider />
-        <div className="middle-slide">
+      <Container>
+        <Carousel />
+        {/* <div className="middle-slide">
           <div className="middle-slide-form">
             <h1 className="middle-slide-title">나만 알고 싶은 향기</h1>
             <div className="all-slide-list">
@@ -86,9 +87,9 @@ class Main extends Component {
             </div>
             <Aside className="Aside" />
           </div>
-        </div>
+        </div> */}
 
-        <div className="media-form">
+        {/* <div className="media-form">
           <embed
             className="youtube"
             src="https://www.youtube.com/embed/LPfcZXXCuFY"
@@ -120,10 +121,12 @@ class Main extends Component {
         </div>
         <div className="main-under">
           <MainUnderContents />
-        </div>
-      </div>
+        </div> */}
+      </Container>
     );
   }
 }
 
 export default Main;
+
+const Container = styled.section``;
