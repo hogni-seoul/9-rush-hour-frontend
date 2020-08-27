@@ -45,7 +45,7 @@ class Routes extends React.Component {
           <Route exact path="/Detail" component={Detail} />
           {/* <Redirect from="*" to="/" /> */}
         </Switch>
-        {/* <Footer /> */}
+        <Footer />
       </Router>
     );
   }

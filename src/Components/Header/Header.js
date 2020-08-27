@@ -9,10 +9,10 @@ import { Color } from "Styles/Theme";
 import Dropdown from "./Dropdown";
 
 // Assets
-import Logo from "Images/logo.png";
-import SearchIcon from "Images/Header/search.png";
-import CartIcon from "Images/Header/cart.png";
-import MyPageIcon from "Images/Header/mypage.png";
+import logo from "Images/logo.png";
+import searchIcon from "Images/Header/search.png";
+import cartIcon from "Images/Header/cart.png";
+import myPageIcon from "Images/Header/mypage.png";
 
 // Api
 import { Api } from "Api";
@@ -42,7 +42,9 @@ const Header = () => {
     <Container>
       <Grid>
         <div>
-          <img src={Logo} alt="lush" />
+          <Link to="/">
+            <img src={logo} alt="lush" />
+          </Link>
         </div>
         <MenuList>
           <Menu>
@@ -77,13 +79,13 @@ const Header = () => {
         </MenuList>
         <MenuGroup>
           <div>
-            <img src={SearchIcon} alt="search-icon" />
+            <img src={searchIcon} alt="search-icon" />
           </div>
           <div>
-            <img src={CartIcon} alt="cart-icon" />
+            <img src={cartIcon} alt="cart-icon" />
           </div>
           <div>
-            <img src={MyPageIcon} alt="mypage-icon" />
+            <img src={myPageIcon} alt="mypage-icon" />
           </div>
         </MenuGroup>
       </Grid>
@@ -127,7 +129,7 @@ const Menu = styled.li`
     justify-content: center;
     align-items: center;
     font-size: 16px;
-    font-weight: 100;
+    font-weight: 300;
     color: ${Color.white};
   }
   &:not(:last-child) {
