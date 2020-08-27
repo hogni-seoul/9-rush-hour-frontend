@@ -5,6 +5,12 @@ import {
   Switch,
   Redirect,
 } from "react-router-dom";
+
+// Components
+import Header from "Components/Header";
+import Footer from "Components/Footer";
+
+// Pages
 import Main from "Pages/Main";
 import SignUp from "Pages/SignUp";
 import Brand from "Pages/Brand";
@@ -15,8 +21,6 @@ import ShoppingCart from "Pages/ShoppingCart";
 import Login from "Pages/Login";
 import Spa from "Pages/Spa";
 import StoreInfo from "Pages/StoreInfo";
-import Header from "Components/Header";
-import Footer from "Components/Footer";
 import Goods from "Components/Goods";
 import Detail from "Pages/Detail/Detail";
 
