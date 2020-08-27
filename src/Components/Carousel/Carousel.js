@@ -14,6 +14,7 @@ import slide_2 from "Images/Carousel/slide_2.jpg";
 import slide_3 from "Images/Carousel/slide_3.jpg";
 import slide_4 from "Images/Carousel/slide_4.jpg";
 import slide_5 from "Images/Carousel/slide_5.jpg";
+import slide_6 from "Images/Carousel/slide_6.jpg";
 
 const Carousel = () => {
   const settings = {
@@ -36,6 +37,7 @@ const Carousel = () => {
       <ImageSlide image={slide_3} />
       <ImageSlide image={slide_4} />
       <ImageSlide image={slide_5} />
+      <ImageSlide image={slide_6} />
     </Slider>
   );
 };
@@ -69,8 +71,9 @@ const Dots = styled.ul`
     margin-bottom: 4px;
   }
   & > li button::before {
-    width: 10px;
-    height: 10px;
+    width: 14px;
+    height: 14px;
+    box-sizing: border-box;
     border: 2px solid #fff;
     border-radius: 100%;
     content: "";

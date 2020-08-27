@@ -11,11 +11,11 @@ const Dropdown = ({ itemList, justifyContentCenter, pb }) => {
       <Grid justifyContentCenter={justifyContentCenter}>
         <CategoryList>
           {itemList.map((item) => (
-            <Category>
+            <Category key={item.category_name}>
               {item.category_name}
               <ItemList>
                 {item.sub_categories.map((subItem) => (
-                  <Item>{subItem}</Item>
+                  <Item key={subItem}>{subItem}</Item>
                 ))}
               </ItemList>
             </Category>
@@ -34,7 +34,7 @@ Dropdown.defaultProps = {
 };
 
 Dropdown.propTypes = {
-  data: PropTypes.arrayOf(
+  itemList: PropTypes.arrayOf(
     PropTypes.shape({
       category_name: PropTypes.string.isRequired,
       category_path: PropTypes.string.isRequired,
