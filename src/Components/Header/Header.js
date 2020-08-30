@@ -14,22 +14,19 @@ import cartIcon from "Images/Header/cart.png";
 import myPageIcon from "Images/Header/mypage.png";
 
 // Api
-import { Api } from "Api";
+import api from "Api";
 
 const Header = () => {
-  const [loading, setLoading] = useState(true);
   const [productList, setProductList] = useState([]);
   const [brandList, setBrandList] = useState([]);
 
   const loadCategories = async () => {
     try {
-      const res = await Api.loadCategories();
+      const res = await api.loadCategories();
       setProductList(res.data.product_list);
       setBrandList(res.data.brand_list);
     } catch (error) {
       console.log(error);
-    } finally {
-      setLoading(false);
     }
   };
 
@@ -48,7 +45,7 @@ const Header = () => {
         <MenuList>
           <Menu>
             <Link to="/products?category=001001">제품</Link>
-            {!loading && productList.length > 0 && (
+            {productList.length > 0 && (
               <div className="drop-down">
                 <Dropdown itemList={productList} />
               </div>
@@ -56,7 +53,7 @@ const Header = () => {
           </Menu>
           <Menu>
             <Link to="/">브랜드</Link>
-            {!loading && brandList.length > 0 && (
+            {brandList.length > 0 && (
               <div className="drop-down">
                 <Dropdown
                   itemList={brandList}

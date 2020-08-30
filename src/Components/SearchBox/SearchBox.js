@@ -1,4 +1,4 @@
-import React, { useState, useRef } from "react";
+import React, { useState, useEffect, useRef } from "react";
 
 // Styles
 import styled from "styled-components";
@@ -7,26 +7,38 @@ import styled from "styled-components";
 import arrowUp from "Images/SearchBox/arrow_up.png";
 import arrowDown from "Images/SearchBox/arrow_down.png";
 
-const SearchBox = ({ searchByList, searchBy, buttonText }) => {
+const SearchBox = ({
+  searchByList,
+  searchBy,
+  setSearchBy,
+  searchTerm,
+  handleSearchTerm,
+  handleSubmit,
+}) => {
   const [open, setOpen] = useState(false);
+
   const anchorRef = useRef(null);
 
-  const handleSubmit = (event) => {
-    event.preventDefault();
-  };
-
-  const handleClose = (event) => {
-    if (anchorRef.current.contains(event.target)) {
-      setOpen((prev) => !prev);
-      console.log(event);
-      return;
-    }
-    console.log("/>>>>>");
-    setOpen(false);
-  };
+  useEffect(() => {
+    const handleClose = (event) => {
+      if (anchorRef.current.contains(event.target)) {
+        setOpen((prev) => !prev);
+        if (event.target.className === "option") {
+          setSearchBy(event.target.textContent);
+        }
+        return;
+      }
+      setOpen(false);
+    };
+    window.addEventListener("click", handleClose);
+    return () => {
+      window.removeEventListener("click", handleClose);
+    };
+    // eslint-disable-next-line
+  }, []);
 
   return (
-    <Grid onClick={handleClose}>
+    <Grid>
       <SelectionContainer ref={anchorRef}>
         <div className="selected">
           <span>{searchBy}</span>
@@ -37,18 +49,18 @@ const SearchBox = ({ searchByList, searchBy, buttonText }) => {
           {!open && <img src={arrowDown} alt="arrow-icon" />}
         </div>
 
-        <Otions className={`list ${open}`} open={open}>
+        <Otions open={open}>
           {searchByList.map((item) => (
-            <div>
-              <span>{item}</span>
+            <div key={item} className="option">
+              {item}
             </div>
           ))}
         </Otions>
       </SelectionContainer>
 
       <InputField onSubmit={handleSubmit}>
-        <input type="text" />
-        <button type="submit">{buttonText}</button>
+        <input type="text" value={searchTerm} onChange={handleSearchTerm} />
+        <button type="submit">검색하기</button>
       </InputField>
     </Grid>
   );
