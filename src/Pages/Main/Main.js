@@ -1,8 +1,7 @@
-import React, { useState } from "react";
+import React from "react";
 
 // Styles
 import styled from "styled-components";
-import { Color } from "Styles/Theme";
 
 // Components
 import Carousel from "Components/Carousel";
@@ -110,13 +109,13 @@ const SpaContainer = styled.div`
     & > p:first-child {
       font-size: 42px;
       font-weight: 700;
-      color: ${Color.black};
+      color: ${({ theme }) => theme.colors.black};
       padding-bottom: 20px;
     }
     & > p:last-child {
       font-size: 16px;
       font-weight: 300;
-      color: ${Color.gray_500};
+      color: ${({ theme }) => theme.colors.gray_500};
     }
   }
 `;

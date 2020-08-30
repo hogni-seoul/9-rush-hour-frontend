@@ -2,7 +2,6 @@ import React, { useState } from "react";
 
 // Styles
 import styled from "styled-components";
-import { Color } from "Styles/Theme";
 
 // Components
 import Slider from "react-slick";
@@ -102,5 +101,5 @@ const SlideCounter = styled.span`
   right: 40px;
   z-index: 9;
   font-size: 14px;
-  color: ${Color.white};
+  color: ${({ theme }) => theme.colors.white};
 `;
