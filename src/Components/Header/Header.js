@@ -3,7 +3,6 @@ import { Link } from "react-router-dom";
 
 // Styles
 import styled from "styled-components";
-import { Color } from "Styles/Theme";
 
 // Components
 import Dropdown from "./Dropdown";
@@ -48,7 +47,7 @@ const Header = () => {
         </div>
         <MenuList>
           <Menu>
-            <Link to="/">제품</Link>
+            <Link to="/products?category=001001">제품</Link>
             {!loading && productList.length > 0 && (
               <div className="drop-down">
                 <Dropdown itemList={productList} />
@@ -68,7 +67,7 @@ const Header = () => {
             )}
           </Menu>
           <Menu>
-            <Link to="/">매장 안내</Link>
+            <Link to="/stores">매장 안내</Link>
           </Menu>
           <Menu>
             <Link to="/">스파</Link>
@@ -97,7 +96,7 @@ export default Header;
 
 const Container = styled.header`
   height: 100px;
-  background-color: ${Color.black};
+  background-color: ${({ theme }) => theme.colors.black};
   position: sticky;
   top: 0;
   z-index: 9;
@@ -130,7 +129,7 @@ const Menu = styled.li`
     align-items: center;
     font-size: 16px;
     font-weight: 300;
-    color: ${Color.white};
+    color: ${({ theme }) => theme.colors.white};
   }
   &:not(:last-child) {
     margin-right: 25px;
@@ -145,7 +144,7 @@ const Menu = styled.li`
       margin: 0 auto;
       top: -20px;
       border-top: 10px solid transparent;
-      border-bottom: 10px solid ${Color.gray_500};
+      border-bottom: 10px solid ${({ theme }) => theme.colors.gray_500};
       border-left: 10px solid transparent;
       border-right: 10px solid transparent;
     }

@@ -3,7 +3,6 @@ import { Link } from "react-router-dom";
 
 // Styles
 import styled from "styled-components";
-import { Color } from "Styles/Theme";
 
 // Assets
 import logo from "Images/logo.png";
@@ -85,8 +84,8 @@ export default Footer;
 const Container = styled.footer`
   height: 460px;
   padding: 45px 0 55px 0;
-  background-color: ${Color.black};
-  color: ${Color.white};
+  background-color: ${({ theme }) => theme.colors.black};
+  color: ${({ theme }) => theme.colors.white};
 `;
 
 const Grid = styled.div`
@@ -153,9 +152,9 @@ const Info = styled.div`
       height: 40px;
       margin-left: 15px;
       font-size: 12px;
-      border: 1px solid ${Color.white};
-      color: ${Color.white};
-      background-color: ${Color.black};
+      border: 1px solid ${({ theme }) => theme.colors.white};
+      color: ${({ theme }) => theme.colors.white};
+      background-color: ${({ theme }) => theme.colors.black};
       cursor: pointer;
       outline: none;
     }
@@ -163,7 +162,7 @@ const Info = styled.div`
   .location,
   .license,
   .copyright {
-    color: ${Color.gray_400};
+    color: ${({ theme }) => theme.colors.gray_400};
     font-weight: 300;
   }
   .copyright {

@@ -2,7 +2,6 @@ import React from "react";
 
 // Styles
 import styled from "styled-components";
-import { Color } from "Styles/Theme";
 
 // Components
 import Slider from "react-slick";
@@ -66,7 +65,7 @@ const Container = styled.div`
 const Title = styled.h2`
   font-size: 42px;
   font-weight: 700;
-  color: ${Color.gray_500};
+  color: ${({ theme }) => theme.colors.gray_500};
   margin-bottom: 25px;
 `;
 
