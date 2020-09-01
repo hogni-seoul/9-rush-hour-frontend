@@ -7,6 +7,7 @@ const Config = {
 const Api = {
   loadCategories: () => axios.get("categories.json", Config),
   loadStores: () => axios.get("stores.json", Config),
+  loadProducts: () => axios.get("products.json", Config),
 };
 
 export default Api;

@@ -1,5 +1,5 @@
 {
-  "product": [
+  "products": [
     {
       "product_name": "럭키 캣",
       "product_number": "1000000570",
@@ -8,7 +8,7 @@
       "hash_tag": "#배쓰밤 #귀여운고양이와함께",
       "price": 15000,
       "stock": 1,
-      "image": "https://www.lush.co.kr/data/goods/19/03/12/1000000570/1000000570_detail_058.jpg",
+      "image": "https://lush.co.kr/data/goods/19/03/12/1000000570/1000000570_main_01.jpg",
       "sub_ctgry_name": "배쓰 밤",
       "sub_ctgry_code": "001001001"
     },
@@ -20,7 +20,7 @@
       "hash_tag": "#배쓰밤 #보랏빛로맨스",
       "price": 17000,
       "stock": 6,
-      "image": "https://www.lush.co.kr/data/goods/20/01/03/1000001147/1000001147_detail_080.jpg",
+      "image": "https://lush.co.kr/data/goods/20/01/03/1000001147/1000001147_main_082.jpg",
       "sub_ctgry_name": "배쓰 밤",
       "sub_ctgry_code": "001001001"
     },
@@ -32,7 +32,7 @@
       "hash_tag": "#초콜릿 #오렌지 #달콤상큼",
       "price": 15000,
       "stock": 10,
-      "image": "https://www.lush.co.kr/data/goods/19/02/07/1000000431/1000000431_detail_039.jpg",
+      "image": "https://lush.co.kr/data/goods/19/02/07/1000000431/1000000431_main_013.jpg",
       "sub_ctgry_name": "배쓰 밤",
       "sub_ctgry_code": "001001001"
     },
@@ -44,7 +44,7 @@
       "hash_tag": "#배쓰밤 #으르렁!",
       "price": 15000,
       "stock": 6,
-      "image": "https://www.lush.co.kr/data/goods/20/03/10/1000001261/1000001261_detail_063.jpg",
+      "image": "https://lush.co.kr/data/goods/20/03/10/1000001261/1000001261_main_052.jpg",
       "sub_ctgry_name": "배쓰 밤",
       "sub_ctgry_code": "001001001"
     },
@@ -56,7 +56,7 @@
       "hash_tag": "#배쓰밤 #네모네모바닷소금",
       "price": 15000,
       "stock": 5,
-      "image": "https://www.lush.co.kr/data/goods/20/03/10/1000001257/1000001257_detail_035.jpg",
+      "image": "https://lush.co.kr/data/goods/20/03/10/1000001257/1000001257_main_012.jpg",
       "sub_ctgry_name": "배쓰 밤",
       "sub_ctgry_code": "001001001"
     },
@@ -68,7 +68,7 @@
       "hash_tag": "#배쓰밤 #해초의촉촉함",
       "price": 35000,
       "stock": 1,
-      "image": "https://www.lush.co.kr/data/goods/19/03/13/1000000593/1000000593_detail_037.jpg",
+      "image": "https://lush.co.kr/data/goods/11/01/20/37/37_main_019.jpg",
       "sub_ctgry_name": "배쓰 밤",
       "sub_ctgry_code": "001001001"
     },
@@ -80,7 +80,7 @@
       "hash_tag": "#배쓰밤 #귀여운여우",
       "price": 19000,
       "stock": 4,
-      "image": "https://www.lush.co.kr/data/goods/19/03/12/1000000568/1000000568_detail_044.jpg",
+      "image": "https://lush.co.kr/data/goods/19/03/12/1000000568/1000000568_main_093.jpg",
       "sub_ctgry_name": "배쓰 밤",
       "sub_ctgry_code": "001001001"
     },
@@ -92,7 +92,7 @@
       "hash_tag": "#배쓰밤 #레몬과오렌지",
       "price": 18000,
       "stock": 4,
-      "image": "https://www.lush.co.kr/data/goods/20/03/10/1000001263/1000001263_detail_093.jpg",
+      "image": "https://lush.co.kr/data/goods/20/03/10/1000001263/1000001263_main_050.jpg",
       "sub_ctgry_name": "배쓰 밤",
       "sub_ctgry_code": "001001001"
     },
@@ -104,7 +104,7 @@
       "hash_tag": "#배쓰밤 #네모네모장미가득",
       "price": 15000,
       "stock": 7,
-      "image": "https://www.lush.co.kr/data/goods/20/03/10/1000001258/1000001258_detail_070.jpg",
+      "image": "https://lush.co.kr/data/goods/20/03/10/1000001258/1000001258_main_064.jpg",
       "sub_ctgry_name": "배쓰 밤",
       "sub_ctgry_code": "001001001"
     },
@@ -116,7 +116,7 @@
       "hash_tag": "#배쓰밤 #바닷소금가득",
       "price": 18000,
       "stock": 10,
-      "image": "https://www.lush.co.kr/data/goods/20/03/10/1000001260/1000001260_detail_089.jpg",
+      "image": "https://lush.co.kr/data/goods/20/03/10/1000001260/1000001260_main_02.jpg",
       "sub_ctgry_name": "배쓰 밤",
       "sub_ctgry_code": "001001001"
     },
@@ -128,7 +128,7 @@
       "hash_tag": "#배쓰밤 #닌자의숨은매력",
       "price": 19000,
       "stock": 5,
-      "image": "https://www.lush.co.kr/data/goods/20/03/10/1000001259/1000001259_detail_0100.jpg",
+      "image": "https://lush.co.kr/data/goods/20/03/10/1000001259/1000001259_main_09.jpg",
       "sub_ctgry_name": "배쓰 밤",
       "sub_ctgry_code": "001001001"
     },
@@ -139,8 +139,8 @@
       "is_vegan": true,
       "hash_tag": "#배쓰밤 #라벤더꽃향기",
       "price": 19000,
-      "stock": 0,
-      "image": "https://www.lush.co.kr/data/goods/19/03/13/1000000586/1000000586_detail_084.jpg",
+      "stock": 6,
+      "image": "https://lush.co.kr/data/goods/19/03/13/1000000586/1000000586_main_018.jpg",
       "sub_ctgry_name": "배쓰 밤",
       "sub_ctgry_code": "001001001"
     },
@@ -151,8 +151,8 @@
       "is_vegan": true,
       "hash_tag": "#배쓰밤 #매혹적인장미",
       "price": 19000,
-      "stock": 0,
-      "image": "https://www.lush.co.kr/data/goods/19/03/12/1000000554/1000000554_detail_034.jpg",
+      "stock": 6,
+      "image": "https://lush.co.kr/data/goods/19/03/12/1000000554/1000000554_main_021.jpg",
       "sub_ctgry_name": "배쓰 밤",
       "sub_ctgry_code": "001001001"
     },
@@ -163,44 +163,8 @@
       "is_vegan": true,
       "hash_tag": "#커뮤키티배쓰밤 #올리브브랜치 #상큼",
       "price": 15000,
-      "stock": 0,
-      "image": "https://www.lush.co.kr/data/goods/19/02/07/1000000429/1000000429_detail_041.jpg",
-      "sub_ctgry_name": "배쓰 밤",
-      "sub_ctgry_code": "001001001"
-    },
-    {
-      "product_name": "프루티 자이언트 밤쉘",
-      "product_number": "1000000560",
-      "is_new": false,
-      "is_vegan": true,
-      "hash_tag": "#배쓰밤 #시트러스조각이담긴",
-      "price": 35000,
-      "stock": 0,
-      "image": "https://www.lush.co.kr/data/goods/19/03/12/1000000560/1000000560_detail_076.jpg",
-      "sub_ctgry_name": "배쓰 밤",
-      "sub_ctgry_code": "001001001"
-    },
-    {
-      "product_name": "라벤더 자이언트 밤쉘",
-      "product_number": "1000000569",
-      "is_new": false,
-      "is_vegan": true,
-      "hash_tag": "#배쓰밤 #포근한라벤더",
-      "price": 35000,
-      "stock": 0,
-      "image": "https://www.lush.co.kr/data/goods/19/03/12/1000000569/1000000569_detail_03.jpg",
-      "sub_ctgry_name": "배쓰 밤",
-      "sub_ctgry_code": "001001001"
-    },
-    {
-      "product_name": "씨솔트 자이언트 밤쉘",
-      "product_number": "1000000592",
-      "is_new": false,
-      "is_vegan": true,
-      "hash_tag": "#배쓰밤 #바닷소금을품은배쓰밤",
-      "price": 35000,
-      "stock": 0,
-      "image": "https://www.lush.co.kr/data/goods/19/03/13/1000000592/1000000592_detail_019.jpg",
+      "stock": 6,
+      "image": "https://lush.co.kr/data/goods/17/11/01/342/342_main_041.jpg",
       "sub_ctgry_name": "배쓰 밤",
       "sub_ctgry_code": "001001001"
     },
@@ -212,7 +176,7 @@
       "hash_tag": "#버블바 #라벤더거품",
       "price": 17000,
       "stock": 2,
-      "image": "https://www.lush.co.kr/data/goods/20/02/06/1000001176/1000001176_detail_057.jpg",
+      "image": "https://lush.co.kr/data/goods/20/02/06/1000001176/1000001176_main_032.jpg",
       "sub_ctgry_name": "버블 바",
       "sub_ctgry_code": "001001002"
     },
@@ -224,7 +188,7 @@
       "hash_tag": "#버블바 #라벤더와통카",
       "price": 18000,
       "stock": 6,
-      "image": "https://www.lush.co.kr/data/goods/20/02/09/1000001226/1000001226_detail_068.jpg",
+      "image": "https://lush.co.kr/data/goods/20/02/09/1000001226/1000001226_main_095.jpg",
       "sub_ctgry_name": "버블 바",
       "sub_ctgry_code": "001001002"
     },
@@ -236,7 +200,7 @@
       "hash_tag": "#버블바 #탁트인바다를바라보는듯한청량감",
       "price": 18000,
       "stock": 8,
-      "image": "https://www.lush.co.kr/data/goods/11/01/20/36/36_detail_019.jpg",
+      "image": "https://lush.co.kr/data/goods/11/01/20/36/36_main_05.jpg",
       "sub_ctgry_name": "버블 바",
       "sub_ctgry_code": "001001002"
     },
@@ -248,7 +212,7 @@
       "hash_tag": "#영화속주인공처럼 #거품입욕로망",
       "price": 18000,
       "stock": 3,
-      "image": "https://www.lush.co.kr/data/goods/11/01/20/18/18_detail_032.jpg",
+      "image": "https://lush.co.kr/data/goods/11/01/20/18/18_main_080.jpg",
       "sub_ctgry_name": "버블 바",
       "sub_ctgry_code": "001001002"
     },
@@ -259,8 +223,8 @@
       "is_vegan": true,
       "hash_tag": "#버블바 #달콤포근",
       "price": 12000,
-      "stock": 8,
-      "image": "https://www.lush.co.kr/data/goods/11/01/20/80/80_detail_094.jpg",
+      "stock": 0,
+      "image": "https://lush.co.kr/data/goods/11/01/20/80/80_main_09.jpg",
       "sub_ctgry_name": "버블 바",
       "sub_ctgry_code": "001001002"
     },
@@ -271,92 +235,8 @@
       "is_vegan": true,
       "hash_tag": "#리유저블버블바 #우유한잔",
       "price": 22000,
-      "stock": 3,
-      "image": "https://www.lush.co.kr/data/goods/20/03/12/1000001275/1000001275_detail_065.jpg",
-      "sub_ctgry_name": "버블 바",
-      "sub_ctgry_code": "001001002"
-    },
-    {
-      "product_name": "러브 퍼퓸 버블 보틀",
-      "product_number": "1000001250",
-      "is_new": true,
-      "is_vegan": true,
-      "hash_tag": "#리유저블버블바 #시트러스향기",
-      "price": 25000,
-      "stock": 2,
-      "image": "https://www.lush.co.kr/data/goods/20/02/09/1000001250/1000001250_detail_090.jpg",
-      "sub_ctgry_name": "버블 바",
-      "sub_ctgry_code": "001001002"
-    },
-    {
-      "product_name": "릴렉스...테이크 어 배쓰",
-      "product_number": "1000001249",
-      "is_new": true,
-      "is_vegan": true,
-      "hash_tag": "#리유저블버블바 #힐링이필요하다면",
-      "price": 22000,
-      "stock": 3,
-      "image": "https://www.lush.co.kr/data/goods/20/02/09/1000001249/1000001249_detail_074.jpg",
-      "sub_ctgry_name": "버블 바",
-      "sub_ctgry_code": "001001002"
-    },
-    {
-      "product_name": "킵 잇 플러피 버블 보틀",
-      "product_number": "1000001248",
-      "is_new": true,
-      "is_vegan": true,
-      "hash_tag": "#리유저블버블바 #자스민향기",
-      "price": 23000,
-      "stock": 9,
-      "image": "https://www.lush.co.kr/data/goods/20/02/09/1000001248/1000001248_detail_016.jpg",
-      "sub_ctgry_name": "버블 바",
-      "sub_ctgry_code": "001001002"
-    },
-    {
-      "product_name": "더티 버블 보틀",
-      "product_number": "1000001247",
-      "is_new": true,
-      "is_vegan": true,
-      "hash_tag": "#리유저블버블바 #상쾌 #청량",
-      "price": 23000,
-      "stock": 3,
-      "image": "https://www.lush.co.kr/data/goods/20/02/09/1000001247/1000001247_detail_076.jpg",
-      "sub_ctgry_name": "버블 바",
-      "sub_ctgry_code": "001001002"
-    },
-    {
-      "product_name": "에를렌마이어 플라스크 버블 보틀",
-      "product_number": "1000001245",
-      "is_new": true,
-      "is_vegan": true,
-      "hash_tag": "#리유저블버블바 #핑크빛입욕",
-      "price": 22000,
-      "stock": 3,
-      "image": "https://www.lush.co.kr/data/goods/20/02/09/1000001245/1000001245_detail_062.jpg",
-      "sub_ctgry_name": "버블 바",
-      "sub_ctgry_code": "001001002"
-    },
-    {
-      "product_name": "골드핑거 버블 스틱",
-      "product_number": "1000001243",
-      "is_new": true,
-      "is_vegan": true,
-      "hash_tag": "#리유저블버블바 #캐러멜처럼달콤한",
-      "price": 12000,
-      "stock": 9,
-      "image": "https://www.lush.co.kr/data/goods/20/02/09/1000001243/1000001243_detail_088.jpg",
-      "sub_ctgry_name": "버블 바",
-      "sub_ctgry_code": "001001002"
-    },
-    {
-      "product_name": "크레용 버블 스틱",
-      "product_number": "1000001242",
-      "is_new": true,
-      "is_vegan": true,
-      "hash_tag": "#리유저블버블바 #입욕크레용",
-      "price": 12000,
-      "stock": 10,
-      "image": "https://www.lush.co.kr/data/goods/20/02/09/1000001242/1000001242_detail_080.jpg",
+      "stock": 0,
+      "image": "https://lush.co.kr/data/goods/20/03/12/1000001275/1000001275_main_071.jpg",
       "sub_ctgry_name": "버블 바",
       "sub_ctgry_code": "001001002"
     }
@@ -367,21 +247,21 @@
       "sub_category__category__code": "001001",
       "category_name": "배쓰",
       "category_code": "001001",
-      "total": 83
+      "total": 20
     },
     {
       "sub_category__name": "배쓰 밤",
       "sub_category__code": "001001001",
       "category_name": "배쓰 밤",
       "category_code": "001001001",
-      "total": 47
+      "total": 12
     },
     {
       "sub_category__name": "버블 바",
       "sub_category__code": "001001002",
       "category_name": "버블 바",
       "category_code": "001001002",
-      "total": 36
+      "total": 8
     }
   ]
 }
