@@ -1,38 +1,47 @@
-import React, { Component } from "react";
-import "./HeroBanner.scss";
+import React from "react";
+import PropTypes from "prop-types";
 
-class HeroBanner extends Component {
-  render() {
-    const {
-      banner,
-      bannerTitle,
-      bannerText1,
-      bannerText2,
-      bannerSubheading,
-    } = this.props;
-    return (
-      <div className="HeroBanner">
-        <div className="image-container">
-          <div className={banner}>
-            <div
-              className="banner-subheading text"
-              style={{
-                display:
-                  banner !== "lushBanner" && banner !== "spaBanner"
-                    ? "none"
-                    : "",
-              }}
-            >
-              {bannerSubheading}
-            </div>
-            <div className="banner-title text">{bannerTitle}</div>
-            <div className="banner-text1 text">{bannerText1}</div>
-            <div className="banner-text2 text">{bannerText2}</div>
-          </div>
-        </div>
-      </div>
-    );
-  }
-}
+// Styles
+import styled from "styled-components";
+
+const HeroBanner = ({ bgImage, heading, text }) => {
+  return (
+    <Container bgImage={bgImage}>
+      <Heading>{heading}</Heading>
+      <Text>{text}</Text>
+    </Container>
+  );
+};
 
 export default HeroBanner;
+
+HeroBanner.propTypes = {
+  bgImage: PropTypes.any.isRequired,
+  heading: PropTypes.string,
+  text: PropTypes.string,
+};
+
+const Container = styled.div`
+  height: 500px;
+  background-image: url(${({ bgImage }) => bgImage});
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+`;
+
+const Heading = styled.h2`
+  color: ${({ theme }) => theme.colors.white};
+  font-size: 68px;
+  font-weight: 700;
+  letter-spacing: 30px;
+`;
+
+const Text = styled.p`
+  color: ${({ theme }) => theme.colors.white};
+  font-size: 26px;
+  font-weight: 100;
+  letter-spacing: 5px;
+`;
